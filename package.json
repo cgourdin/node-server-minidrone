@@ -1,0 +1,39 @@
+{
+    "name": "node-server-minidrone",
+    "version": "1.0.0",
+    "description": "Fly a Parrot Minidrone using REST calls such as Airbone cargo, Rolling Spider etc.",
+    "main": "src/node_server.js",
+    "scripts": {
+        "test": "spec/node_server_spec.js",
+        "start": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cgourdin/node-server-minidrone"
+    },
+    "author": "Christophe Gourdin <gourdinc@yahoo.fr>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cgourdin/node-server-minidrone/issues"
+    },
+    "homepage": "https://github.com/cgourdin/node-server-minidrone",
+    "keywords": [
+        "drone",
+        "minidrone",
+        "parrotminidrone",
+        "REST",
+        "fly",
+        "iot"
+    ],
+    "dependencies": {
+        "parrot-minidrone": "^1.1.1",
+        "express": "^4.8.6",
+        "jasmine-node": "^1.14.5",
+        "jasmine-node-karma": "^1.6.1",
+        "request": "^2.51.0"
+    },
+    "engine": "node >= 6.0.0",
+    "devDependencies": {
+        "nodemon": "^1.12.0"
+    }
+}
